@@ -209,7 +209,7 @@ elif menu == "📜 Event Records":
                 lambda x: datetime.fromtimestamp(float(x)).strftime('%m-%d %H:%M:%S') if pd.notna(x) else "Unknown"
             )
         
-        st.dataframe(display_df.style.applymap(highlight_mismatch, subset=['flag'] if 'flag' in display_df.columns else []), use_container_width=True)
+        st.dataframe(display_df.style.map(highlight_mismatch, subset=['flag'] if 'flag' in display_df.columns else []), use_container_width=True)
         
         # CSV Export
         csv = display_df.to_csv(index=False).encode('utf-8')
