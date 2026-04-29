@@ -1,0 +1,12 @@
+opencv-python
+ultralytics
+fastapi
+uvicorn
+pandas
+pydantic
+numpy
+scipy
+streamlit
+python-multipart
+imageio[ffmpeg]
+imageio

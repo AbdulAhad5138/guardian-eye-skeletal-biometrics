@@ -1,0 +1,12 @@
+{
+    "user1": {
+        "entry_count": 2,
+        "metrics": {
+            "estimated_height": 280.08605194091797,
+            "biometric_signature": 5.326571200770663,
+            "torso_leg_ratio": 0.7688442925071809,
+            "shoulder_hip_ratio": 1.6058160066604614,
+            "frame_index": 0.5204697243797203
+        }
+    }
+}

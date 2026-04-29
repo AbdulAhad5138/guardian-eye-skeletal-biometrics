@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project Data
+data/events/*.json
+data/evidence/*.mp4
+data/profiles/*.json
+data/test_clips/*.mp4
+!data/profiles/profiles.json
+data/live_stream.mp4
+
+# Models
+*.pt
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
